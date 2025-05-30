@@ -3,7 +3,7 @@
 Proyek ini bertujuan untuk **mendeteksi dan klasifikasi kendaraan** (motor dan mobil) dalam video lalu lintas menggunakan metode pemrosesan citra klasik. Proses dimulai dari ekstraksi frame video, konversi ke grayscale, perhitungan background secara otomatis menggunakan, membedakan frame dengan background, thresholding Otsu, morfologi, pelabelan objek, klasifikasi berdasarkan zona, hingga penyimpanan video output yang telah dianotasi.
 
 
-## 📁 Struktur File
+# 📁 Struktur File
 
 ```
 ├── Background_Subtraction.ipynb   # Notebook utama deteksi kendaraan (untuk dijalankan di Google Colab)
@@ -13,7 +13,7 @@ Proyek ini bertujuan untuk **mendeteksi dan klasifikasi kendaraan** (motor dan m
 
 ---
 
-## Langkah-langkah
+# Langkah-langkah
 
 1. **Download Video:**
    Gunakan video rekaman CCTV yang telah dilampirkan. 
@@ -29,14 +29,14 @@ Proyek ini bertujuan untuk **mendeteksi dan klasifikasi kendaraan** (motor dan m
 	```
 
 
-## 🧪 Cara Menjalankan
+# 🧪 Cara Menjalankan
 
 1. Buka file **Background_Subtraction.ipynb** di Google Colab
 2. Jalankan semua sel dari atas ke bawah, jangan lupa pastikan path video benar
 3. Simpan Output
 ---
 
-## 🔍 Alur Proses
+# 🔍 Alur Proses
 
 1. Ekstrak seluruh frame dari video input
 2. Konversi frame ke **grayscale**
@@ -52,7 +52,7 @@ Proyek ini bertujuan untuk **mendeteksi dan klasifikasi kendaraan** (motor dan m
 
 ---
 
-## ✅ Hasil
+# ✅ Hasil
 
 * Video output akan berisi:
 
@@ -66,7 +66,7 @@ Proyek ini bertujuan untuk **mendeteksi dan klasifikasi kendaraan** (motor dan m
 
 ---
 
-## 📌 Catatan
+# 📌 Catatan
 
 * **Parameter penting yang dapat disesuaikan:**
 
@@ -82,7 +82,7 @@ Proyek ini bertujuan untuk **mendeteksi dan klasifikasi kendaraan** (motor dan m
 
 ---
 
-## 🔄 Pengembangan Selanjutnya
+# 🔄 Pengembangan Selanjutnya
 
 * Integrasi dengan machine learning atau deep learning
 * Analisis Jumlah kendaraan
