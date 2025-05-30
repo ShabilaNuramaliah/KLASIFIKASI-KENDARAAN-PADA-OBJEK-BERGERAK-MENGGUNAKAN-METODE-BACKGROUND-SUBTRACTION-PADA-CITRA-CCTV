@@ -13,7 +13,7 @@ Proyek ini bertujuan untuk **mendeteksi dan klasifikasi kendaraan** (motor dan m
 
 ---
 
-## Langkah-langkah
+## 🪜 Langkah-langkah
 
 1. **Download Video:**
    Gunakan video rekaman CCTV yang telah dilampirkan. 
