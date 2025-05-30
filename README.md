@@ -16,12 +16,13 @@ Proyek ini bertujuan untuk **mendeteksi dan klasifikasi kendaraan** (motor dan m
 ## 🪜 Langkah-langkah
 
 1. **Download Video:**
-   Gunakan video rekaman CCTV yang telah dilampirkan. 
+   Gunakan video rekaman CCTV yang telah dilampirkan.
+   https://drive.google.com/file/d/19K1Tpf5T529FqPPZFI__4RlVEfWMX50f/view?usp=sharing
    
-2. **Siapkan Video**
+3. **Siapkan Video**
    Unggah file video lyang telah diunduh langsung di Colab lewat panel Files dengan cara klik ikon folder di sisi kiri → Klik tombol Upload → Pilih file jogja.mp4
 
-3. **Instalasi Dependensi**
+4. **Instalasi Dependensi**
    Jalankan perintah berikut di Colab:
 
 	```python
