@@ -1,5 +1,3 @@
-# KLASIFIKASI-KENDARAAN-PADA-OBJEK-BERGERAK-MENGGUNAKAN-METODE-BACKGROUND-SUBTRACTION-PADA-CITRA-CCTV 🚗 🏍️ 
-
 
 Proyek ini bertujuan untuk **mendeteksi dan klasifikasi kendaraan** (motor dan mobil) dalam video lalu lintas menggunakan metode pemrosesan citra klasik. Proses dimulai dari ekstraksi frame video, konversi ke grayscale, perhitungan background secara otomatis menggunakan, membedakan frame dengan background, thresholding Otsu, morfologi, pelabelan objek, klasifikasi berdasarkan zona, hingga penyimpanan video output yang telah dianotasi.
 
@@ -7,7 +5,6 @@ Proyek ini bertujuan untuk **mendeteksi dan klasifikasi kendaraan** (motor dan m
 ## 📁 Struktur File
 
 ```
-.
 ├── Background_Subtraction.ipynb    # Notebook utama deteksi kendaraan (untuk dijalankan di Google Colab)
 ├── README.md                    	# Dokumentasi proyek ini
 └── jogja.mp4 			           	# Video input lalu lintas (simpan di Google Drive Anda)
@@ -33,7 +30,7 @@ Proyek ini bertujuan untuk **mendeteksi dan klasifikasi kendaraan** (motor dan m
 
 ## 🧪 Cara Menjalankan
 
-1. Buka file **Background_Subtraction.ipynb ** di Google Colab
+1. Buka file **Background_Subtraction.ipynb** di Google Colab
 2. Jalankan semua sel dari atas ke bawah, jangan lupa pastikan path video benar
 3. Simpan Output
 ---
@@ -91,5 +88,4 @@ Proyek ini bertujuan untuk **mendeteksi dan klasifikasi kendaraan** (motor dan m
 * Deteksi lebih banyak jenis kendaraan (truk, bus, sepeda, dll)
 
 ---
-
 
