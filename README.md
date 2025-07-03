@@ -8,7 +8,7 @@ Proyek ini bertujuan untuk **mendeteksi dan klasifikasi kendaraan** (motor dan m
 ```
 ├── Background_Subtraction.ipynb   # Notebook utama deteksi kendaraan (untuk dijalankan di Google Colab)
 ├── README.md                      # Dokumentasi proyek ini
-└── jogja.mp4                      # Video input lalu lintas
+└── p.mp4                     	   # Video input lalu lintas
 ```
 
 ---
@@ -17,7 +17,7 @@ Proyek ini bertujuan untuk **mendeteksi dan klasifikasi kendaraan** (motor dan m
 
 1. **Download Video:**
    Gunakan video rekaman CCTV yang telah dilampirkan.
-   https://drive.google.com/file/d/19K1Tpf5T529FqPPZFI__4RlVEfWMX50f/view?usp=sharing
+   https://drive.google.com/file/d/1gLDdlinfJglY1vMtpx1s6_b0WB90UDYJ/view?usp=sharing 
    
 3. **Siapkan Video**
    Unggah file video lyang telah diunduh langsung di Colab lewat panel Files dengan cara klik ikon folder di sisi kiri → Klik tombol Upload → Pilih file jogja.mp4
@@ -44,7 +44,7 @@ Proyek ini bertujuan untuk **mendeteksi dan klasifikasi kendaraan** (motor dan m
 3. Hitung **median** dari seluruh frame → dijadikan **background**
 4. Hitung selisih absolut frame saat ini dengan background
 5. Terapkan **Otsu Thresholding**
-6. Terapkan **morfologi closing & opening** untuk hilangkan noise
+6. Terapkan **morfologi Dilasi, closing, dan opening** untuk hilangkan noise
 7. Deteksi dan **label objek** menggunakan `skimage.measure.label`
 8. Bagi frame jadi **3 zona** (atas, tengah, bawah)
 9. Klasifikasikan objek berdasarkan **luas bounding box di zona masing-masing**
